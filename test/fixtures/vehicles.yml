@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  vehicle_type: MyString
+  reg_no: MyString
+  availability: false
+
+two:
+  vehicle_type: MyString
+  reg_no: MyString
+  availability: false
