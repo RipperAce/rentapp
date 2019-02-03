@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Owner name:</strong>
+  <%= @owner.owner_name %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @owner.address %>
+</p>
+
+<p>
+  <strong>Contact:</strong>
+  <%= @owner.contact %>
+</p>
+
+<p>
+  <strong>Aadhar no:</strong>
+  <%= @owner.aadhar_no %>
+</p>
+
+<%= link_to 'Edit', edit_owner_path(@owner) %> |
+<%= link_to 'Back', owners_path %>
