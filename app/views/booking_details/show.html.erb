@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Date from:</strong>
+  <%= @booking_details.date_from %>
+</p>
+
+<p>
+  <strong>Date to:</strong>
+  <%= @booking_details.date_to %>
+</p>
+
+<p>
+  <strong>Rent per day:</strong>
+  <%= @booking_details.rent_per_day %>
+</p>
+
+<%= link_to 'Edit', edit_booking_detail_path(@booking_details) %> |
+<%= link_to 'Back', booking_details_path %>
